@@ -1,3 +1,4 @@
+// Links
 .index .links {
   text-align: right;
 
@@ -11,7 +12,7 @@
   }
 }
 
-// Logo
+// Logos
 .index .logo,
 .image .logo {
   display: block;
@@ -22,12 +23,10 @@
   padding-bottom: 2%;
 }
 .advanced .logo {
-  display: block;
   max-width: 7%;
   height: auto;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-bottom: 4%;
+  margin-left: 1%;
+  margin-top: 1%;
 }
 
 // Search Attributes
@@ -82,4 +81,29 @@
       box-shadow: 0 2.2px 2px -2px grey;
     }
   }
+}
+.advanced .search .searchboxes {
+  margin-top: 10%;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400
+}
+
+// Advanced Search Heading
+.advanced #advancedheading {
+  margin-top: 4%;
+  margin-left: 3.5%;
+  color: #d93025;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+}
+.advanced #line {
+  margin-top: 2%;
+  margin-left: -0.75%;
+  margin-right: -0.75%;
+  max-width: 101.37%;
+  height: 0.8px;
+  background-color: #ebebeb;
+  border-style: none;
 }
