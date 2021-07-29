@@ -1,0 +1,103 @@
+.index .links {
+  text-align: right;
+}
+
+.index .links #imagesearchlink,
+.index .links #advancedsearchlink {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.index .logo,
+.image .logo {
+  display: block;
+  max-width: 26%;
+  height: auto;
+  margin: auto;
+  padding-top: 14%;
+  padding-bottom: 2%;
+}
+
+.advanced .logo {
+  display: block;
+  max-width: 7%;
+  height: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+
+.index .search,
+.image .search {
+  text-align: center;
+}
+
+.index .search #searchform,
+.image .search #searchform {
+  display: inline-box;
+}
+
+.index .search #searchbox,
+.image .search #searchbox {
+  width: 550px;
+  height: 40px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1.3px;
+}
+
+.index .search #searchbox:hover,
+.image .search #searchbox:hover {
+  border-style: outset;
+  border-width: 1px;
+  -webkit-box-shadow: 0 0 9px -3px #a5a5a5;
+          box-shadow: 0 0 9px -3px #a5a5a5;
+}
+
+.index .search .searchbuttons,
+.image .search .searchbuttons {
+  padding-top: 30px;
+}
+
+.index .search .searchbuttons #searchbutton,
+.index .search .searchbuttons #luckybutton,
+.index .search .searchbuttons #imagesearchbutton,
+.image .search .searchbuttons #searchbutton,
+.image .search .searchbuttons #luckybutton,
+.image .search .searchbuttons #imagesearchbutton {
+  width: 125px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-family: "Roboto";
+  color: #212121;
+  font-size: 13px;
+}
+
+.index .search .searchbuttons #searchbutton,
+.image .search .searchbuttons #searchbutton {
+  margin-right: 12px;
+}
+
+.index .search .searchbuttons #imagesearchbutton,
+.image .search .searchbuttons #imagesearchbutton {
+  width: 170px;
+}
+
+.index .search .searchbuttons #searchbutton:hover,
+.index .search .searchbuttons #luckybutton:hover,
+.index .search .searchbuttons #imagesearchbutton:hover,
+.image .search .searchbuttons #searchbutton:hover,
+.image .search .searchbuttons #luckybutton:hover,
+.image .search .searchbuttons #imagesearchbutton:hover {
+  cursor: pointer;
+  border-style: outset;
+  border-width: 1px;
+  -webkit-box-shadow: 0 2.2px 2px -2px grey;
+          box-shadow: 0 2.2px 2px -2px grey;
+}
+/*# sourceMappingURL=styles.css.map */

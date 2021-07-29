@@ -1,0 +1,85 @@
+.index .links {
+  text-align: right;
+
+  #imagesearchlink,
+  #advancedsearchlink {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #212121;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+}
+
+// Logo
+.index .logo,
+.image .logo {
+  display: block;
+  max-width: 26%;
+  height: auto;
+  margin: auto;
+  padding-top: 14%;
+  padding-bottom: 2%;
+}
+.advanced .logo {
+  display: block;
+  max-width: 7%;
+  height: auto;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+
+// Search Attributes
+.index .search,
+.image .search {
+  text-align: center;
+
+  #searchform {
+    display: inline-box;
+  }
+
+  #searchbox {
+    width: 550px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1.3px;
+  }
+  #searchbox:hover {
+    border-style: outset;
+    border-width: 1px;
+    box-shadow: 0 0 9px -3px rgb(165, 165, 165);
+  }
+
+  .searchbuttons {
+    padding-top: 30px;
+
+    #searchbutton,
+    #luckybutton,
+    #imagesearchbutton {
+      width: 125px;
+      height: 40px;
+      border-style: none;
+      border-radius: 5px;
+      background-color: #f8f9fa;
+      font-family: "Roboto";
+      color: #212121;
+      font-size: 13px;
+    }
+    #searchbutton {
+      margin-right: 12px;
+    }
+    #imagesearchbutton {
+      width: 170px;
+    }
+    #searchbutton:hover,
+    #luckybutton:hover,
+    #imagesearchbutton:hover {
+      cursor: pointer;
+      border-style: outset;
+      border-width: 1px;
+      box-shadow: 0 2.2px 2px -2px grey;
+    }
+  }
+}
