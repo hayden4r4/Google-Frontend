@@ -1,3 +1,4 @@
+$font: "Roboto";
 // Links
 .index .links {
   text-align: right;
@@ -7,7 +8,7 @@
     margin-right: 15px;
     text-decoration: none;
     color: #212121;
-    font-family: "Roboto";
+    font-family: $font;
     font-size: 14px;
   }
 }
@@ -62,7 +63,7 @@
       border-style: none;
       border-radius: 5px;
       background-color: #f8f9fa;
-      font-family: "Roboto";
+      font-family: $font;
       color: #212121;
       font-size: 13px;
     }
@@ -82,11 +83,50 @@
     }
   }
 }
-.advanced .search .searchboxes {
-  margin-top: 10%;
-  font-family: "Roboto";
+.advanced .searchboxes {
+  font-family: $font;
   font-size: 13px;
-  font-weight: 400
+  font-weight: 400;
+  margin-top: 6%;
+  margin-left: 3.5%;
+  margin-right: 13%;
+
+  label {
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  input[type="text"] {
+    float: right;
+    width: 50%;
+    height: 30px;
+    padding: 4px 20px;
+    margin: 6% 0;
+    margin-top: -2.5%;
+    margin-right: 30%;
+    border: 1px solid #ccc;
+    border-radius: 1.2px;
+    box-sizing: border-box;
+  }
+}
+
+.advanced #searchbutton {
+  text-align: bottom;
+  width: 12%;
+  height: 30px;
+  margin-left: 50%;
+  margin-bottom: 2%;
+  background-color: #4481e2;
+  font-family: $font;
+  font-weight: 600;
+  font-size: 12.2px;
+  color: white;
+  border-style: none;
+  border-radius: 1.5px;
+}
+.advanced #searchbutton:hover {
+  background-color: #4077ca;
 }
 
 // Advanced Search Heading
@@ -94,7 +134,7 @@
   margin-top: 4%;
   margin-left: 3.5%;
   color: #d93025;
-  font-family: "Roboto";
+  font-family: $font;
   font-size: 20px;
   font-weight: 400;
 }
@@ -106,4 +146,12 @@
   height: 0.8px;
   background-color: #ebebeb;
   border-style: none;
+}
+.advanced #findpages {
+  font-family: $font;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b3e37;
+  margin-top: 4.5%;
+  margin-left: 3.5%;
 }

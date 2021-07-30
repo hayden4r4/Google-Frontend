@@ -99,11 +99,52 @@
           box-shadow: 0 2.2px 2px -2px grey;
 }
 
-.advanced .search .searchboxes {
-  margin-top: 10%;
+.advanced .searchboxes {
   font-family: "Roboto";
   font-size: 13px;
   font-weight: 400;
+  margin-top: 6%;
+  margin-left: 3.5%;
+  margin-right: 13%;
+}
+
+.advanced .searchboxes label {
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.advanced .searchboxes input[type="text"] {
+  float: right;
+  width: 50%;
+  height: 30px;
+  padding: 4px 20px;
+  margin: 6% 0;
+  margin-top: -2.5%;
+  margin-right: 30%;
+  border: 1px solid #ccc;
+  border-radius: 1.2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.advanced #searchbutton {
+  text-align: bottom;
+  width: 12%;
+  height: 30px;
+  margin-left: 50%;
+  margin-bottom: 2%;
+  background-color: #4481e2;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 12.2px;
+  color: white;
+  border-style: none;
+  border-radius: 1.5px;
+}
+
+.advanced #searchbutton:hover {
+  background-color: #4077ca;
 }
 
 .advanced #advancedheading {
@@ -123,5 +164,14 @@
   height: 0.8px;
   background-color: #ebebeb;
   border-style: none;
+}
+
+.advanced #findpages {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b3e37;
+  margin-top: 4.5%;
+  margin-left: 3.5%;
 }
 /*# sourceMappingURL=styles.css.map */
