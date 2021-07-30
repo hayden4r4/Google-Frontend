@@ -1,10 +1,11 @@
 $font: "Roboto";
 // Links
-.index .links {
+.links {
   text-align: right;
 
   #imagesearchlink,
-  #advancedsearchlink {
+  #advancedsearchlink,
+  #searchlink {
     margin-right: 15px;
     text-decoration: none;
     color: #212121;

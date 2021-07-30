@@ -1,9 +1,10 @@
-.index .links {
+.links {
   text-align: right;
 }
 
-.index .links #imagesearchlink,
-.index .links #advancedsearchlink {
+.links #imagesearchlink,
+.links #advancedsearchlink,
+.links #searchlink {
   margin-right: 15px;
   text-decoration: none;
   color: #212121;
